@@ -1,0 +1,34 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Large binary aerial imagery and DSM rasters (>100MB)
+*.tif
+*.tiff
+bm-2026-stereo/
+data/*.tif
+data/dsm_ahn5_merged.tif
+hwh-ahn/
+output_test/
+
+# Generated raster output directories
+output/
+output_*/
+!output_bag/
+output_bag/*.tif
+output_bag/*.tif.*
+output_bag/*.tmp.tif
+
+# Keep verification reports and image crops
+!output_bag/verification/
+!output_bag/verification/**
+
+# GIS auxiliary and lock files
+*.aux.xml
+*.points
+fo.qgz
+*.log
+
+# Keep bag_pand.gpkg
+!data/bag_pand.gpkg

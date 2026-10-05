@@ -1,0 +1,14 @@
+numpy>=1.24.0
+scipy>=1.10.0
+rasterio>=1.3.0
+pyproj>=3.5.0
+opencv-python-headless>=4.8.0
+pillow>=9.5.0
+shapely>=2.0.0
+geopandas>=0.13.0
+pyogrio>=0.6.0
+numba>=0.58.0
+tqdm>=4.65.0
+# GPU acceleration (requires matching CUDA toolkit – pick ONE of the lines below):
+# cupy-cuda11x>=12.0.0   # CUDA 11.x
+cupy-cuda12x>=12.0.0     # CUDA 12.x  ← default (RTX 30/40 series)
